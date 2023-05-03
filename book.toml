@@ -1,0 +1,6 @@
+[book]
+authors = ["Torsten Dittmann"]
+language = "en"
+multilingual = false
+src = "src"
+title = "GustavPHP Documentation"
