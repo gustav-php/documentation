@@ -1,8 +1,9 @@
 # Summary
 
-- [Intro](./1_intro.md)
-  - [Controllers](./2_controllers.md)
-  - [Routing](./3_routing.md)
-  - [Services](./4_services.md)
-  - [Middlewares](./5_middlewares.md)
+- [Intro](./intro.md)
+- [Getting Started](./getting_started.md)
+  - [Controllers](./controllers.md)
+  - [Routing](./routing.md)
+  - [Services](./services.md)
+  - [Middlewares](./middlewares.md)
 

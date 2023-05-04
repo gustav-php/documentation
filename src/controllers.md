@@ -66,6 +66,18 @@ $app = new Application(routes: [CatsController::class]);
 $app->start();
 ```
 
+Instead of adding every controller manually, Gustav PHP can also automatically discover all Controllers in the Namespace by using the Configuration. This is done by adding the `routeNamespaces` argument to the `Configuration` constructor.
+
+```php
+$configuration = new Configuration(
+    routeNamespaces: [
+        'GustavPHP\Example\Routes'
+    ]
+);
+
+$app = new Application(configuration: $configuration);
+```
+
 Full example:
 
 ```php
