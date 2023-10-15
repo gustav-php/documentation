@@ -5,7 +5,7 @@ Before creating your first GustavPHP project, you should ensure that your local 
 After you have installed PHP and Composer, you may create a new GustavPHP project via the `create-project` command:
 
 ```bash
-composer create-project gustavphp/starter example-app
+composer create-project gustav-php/starter example-app
 ```
 
 After the project has been created, start GustavPHP's local development server using the serve command:
