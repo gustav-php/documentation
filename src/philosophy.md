@@ -8,9 +8,13 @@ I guess many developers have been in these shoes, navigating the maze of PHP fra
 
 The big players like [Laravel](https://laravel.com) and [Symfony](https://symfony.com) are awesome, no doubt.
 
-Talking about developer experience, I think Laravel does a really bad job at. In my opinion, I should be able to navigate and discover the namespaces and classes of my framework by simply following common sense and known naming patterns. After dealing 1 minute with Laravel you will encounter a `Illuminate\Support\Facades\Route` class and this is only the beginning. It's ecosystem is filled with terms like `Illuminate`, `Eloquent` and `Artisan` that just add an unncessecary layer of complexity.
+But lack developer experience, I think Laravel especially does a really bad job at it. In my opinion, I should be able to navigate and discover the namespaces and classes of my framework by simply following common sense and known naming patterns. 
 
-However, Laravel is great at bigger scale. But what if your project isn't an enterprise monolith? What if you want simplicity?
+After 1 minute with Laravel you will encounter a wild `Illuminate\Support\Facades\Route` class and this is only the beginning. How does all those terms lead me to creating a `Route` for my "Hello World!" endpoint. It's ecosystem is filled with terms like `Illuminate`, `Eloquent` and `Artisan` that just add an unncessecary layer of complexity.
+
+Once you you learned the characteristic of Laravel, Symfony and co, you can build whatever you want at _enterprise_ level. 
+
+But what if your project isn't an enterprise monolith? What if you want simplicity?
 
 ## Simplicity
 
