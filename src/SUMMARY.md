@@ -1,6 +1,7 @@
 # Summary
 
 -   [Intro](./intro.md)
+-   [Philosophy]()
 
 # Getting Started
 
@@ -14,10 +15,14 @@
     -   [Routing](./controllers/routing.md)
     -   [Request](./controllers/request.md)
     -   [Validation](./controllers/validation.md)
-    -   [Response](./controllers/response.md)
-    -   [Serialization](./controllers/serialization.md)
+    -   [Response]()
+    -   [Serialization]()
 -   [Services](./services/index.md)
-    - [Injection](./services/injection.md)
+    -   [Injection]()
 -   [Middlewares](./middlewares.md)
 -   [Events](./events.md)
 -   [Views](./views.md)
+-   [Security]()
+-   [Queues]()
+-   [Scheduling]()
+-   [Deployment]()
