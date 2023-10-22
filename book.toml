@@ -6,7 +6,7 @@ src = "src"
 title = "GustavPHP"
 
 [output.html]
-mathjax-support = true
+mathjax-support = false
 site-url = "/mdBook/"
 git-repository-url = "https://github.com/gustav-php/gustav"
-edit-url-template = "https://github.com/gustav-php/gustav-php.github.io/edit/master/guide/{path}"
+edit-url-template = "https://github.com/gustav-php/gustav-php.github.io/edit/main/{path}"

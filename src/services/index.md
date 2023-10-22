@@ -1,4 +1,4 @@
-## Services
+# Services
 
 Services are classes that can be injected into controllers. They are defined by extending the `Service\Base` class.
 
