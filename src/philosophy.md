@@ -10,7 +10,7 @@ The big players like [Laravel](https://laravel.com) and [Symfony](https://symfon
 
 Talking about developer experience, I think Laravel does a really bad job at. In my opinion, I should be able to navigate and discover the namespaces and classes of my framework by simply following common sense and known naming patterns. After dealing 1 minute with Laravel you will encounter a `Illuminate\Support\Facades\Route` class and this is only the beginning. It's ecosystem is filled with terms like `Illuminate`, `Eloquent` and `Artisan` that just add an unncessecary layer of complexity.
 
-What if your project isn't an enterprise monolith? What if you want simplicity?
+However, Laravel is great at bigger scale. But what if your project isn't an enterprise monolith? What if you want simplicity?
 
 I want to keep it lean. I rather give you a blank canvas and let you paint your project the way you want. No feature bloat, no complexity - just the tools you need.
 
