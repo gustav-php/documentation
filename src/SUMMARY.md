@@ -1,7 +1,7 @@
 # Summary
 
 -   [Intro](./intro.md)
--   [Philosophy]()
+-   [Philosophy](./philosophy.md)
 
 # Getting Started
 
