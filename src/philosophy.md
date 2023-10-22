@@ -1,6 +1,6 @@
 # Philosophy
 
-Hi, I'm Torsten and like to code. I'm not here to sell you on the next big thing, but rather to share my opinion about PHP frameworks and why I wanna do things a little differently.
+Hi, I'm [Torsten](https://github.com/TorstenDittmann) and like to code. I'm not here to sell you on the next big thing, but rather to share my opinion about current PHP frameworks and why I wanna do things a little differently.
 
 ## The Overwhelming Maze
 
@@ -12,13 +12,13 @@ Talking about developer experience, I think Laravel does a really bad job at. In
 
 However, Laravel is great at bigger scale. But what if your project isn't an enterprise monolith? What if you want simplicity?
 
-I want to keep it lean. I rather give you a blank canvas and let you paint your project the way you want. No feature bloat, no complexity - just the tools you need.
-
-That also means, that this framework will not be the swiss knife for all your needs. I don't see this framework ever being shipped with an ORM because, honestly, there are some fantastic options available and therefore rather support you in implementing whatever you feel the most comfortable with.
-
 ## Simplicity
 
+I want to keep it lean. I rather give you a blank canvas and let you paint your project the way you want. No feature bloat, no complexity - just the tools you need.
+
 Have you ever opened a framework's project scaffold only to find it sprouting 15 folders and more files than you can count? It's a recipe for overwhelm. GustavPHP starts you off with a clean slate, not a tangled mess of directories.
+
+That also means, that this framework will not be the swiss knife for all your needs. I don't see this framework ever being shipped with an ORM because, honestly, there are some fantastic options available and therefore rather support you in implementing whatever you feel the most comfortable with.
 
 ## No Magic
 
