@@ -1,5 +1,7 @@
 # Gustav - PHP Framework
 
+![GustavPHP Logo](favicon.png)
+
 Gustav is a PHP framework for building web applications. It is designed to be simple, object-oriented and using the latest features of PHP.
 
 -   **Simple** - Designed to be easy to use and easy to learn.

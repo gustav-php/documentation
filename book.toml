@@ -6,6 +6,8 @@ src = "src"
 title = "GustavPHP"
 
 [output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
 mathjax-support = false
 site-url = "/mdBook/"
 git-repository-url = "https://github.com/gustav-php/gustav"
