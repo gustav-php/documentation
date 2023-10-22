@@ -39,14 +39,5 @@ Event\Manager::dispatch('test', [
 ]);
 ```
 
-Events are automatically added like Routes by passing the `eventNamespaces` argument to the `Configuration` constructor.
+Events are automatically added like Routes in the `App\Events` namespace.
 
-```php
-$configuration = new Configuration(
-    eventNamespaces: [
-        'GustavPHP\Example\Events'
-    ]
-);
-
-$app = new Application(configuration: $configuration);
-```

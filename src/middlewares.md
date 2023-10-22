@@ -3,39 +3,51 @@
 Middlewares are classes that are run before the controller is executed. They are defined by extending the `Middleware\Base` class.
 
 ```php
-class Security extends Middleware\Base
+class MyMiddleware extends Middleware\Base
 {
-
     public function __construct()
     {
     }
 
-    public function handle(Request $request, Response $response, Context $context): void
+    public function handle(Psr\Http\Message\ServerRequestInterface $request): ServerRequestInterface
     {
-        // do stuff here
+        // do stuff with `$request`
+
+        return $request;
     }
 }
 ```
 
-To add a middleware to a controller, you need to add the `Middleware` attribute to the controllers class.
+To use a middleware with a controller, you need to add the `GustavPHP\Gustav\Attribute\Middleware` attribute to the controllers class.
 
 ```php
-use GustavPHP\Gustav\Attribute;
-
-#[Attribute\Middleware(Security::class)]
+#[GustavPHP\Gustav\Attribute\Middleware(MyMiddleware::class)]
 class CatsController extends Controller\Base
 //...
 ```
 
-You can extend the `Context` class to add custom data to the context. The Context is passed to all following middlewares and the executed controller.
+You can add informations to the request by adding attributes to the request.
+
+```php
+public function handle(Psr\Http\Message\ServerRequestInterface $request): ServerRequestInterface
+{
+    $request = $request->withAttribute('from-middleware', 'Hello World!');
+
+    return $request;
+}
+```
+
+And then get them from the Request in Controllers.
 
 ```php
 class DogsController extends Controller\Base
 {
     #[Route('/from-context')]
-    public function police()
+    public function police(#[Request] Psr\Http\Message\ServerRequestInterface $request)
     {
-        return $this->context;
+        $info = $request->getAttribute('from-middleware');
+
+        return $this->plaintext($info);
     }
 }
 ```

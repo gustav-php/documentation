@@ -18,7 +18,7 @@ $configuration = new Configuration(
 | **Key**                | **Description**                                         |
 | ---------------------- | ------------------------------------------------------- |
 | `mode`                 | Sets the application in development or production.      |
-| `namesüace`            | Sets the application namespace for namespace discovery. |
+| `namespace`            | Sets the application namespace for class discovery.     |
 | `cache`                | Absoulute path to the directory used for cache.         |
 | `files`                | Absoulute path to the directory used for static assets. |
 | `eventNamespaces`      | Namespace for all additional Event classes.             |
