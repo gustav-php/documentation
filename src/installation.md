@@ -16,4 +16,4 @@ cd example-app
 php gustav serve
 ```
 
-Once you have started the Artisan development server, your application will be accessible in your web browser at `http://localhost:4200`.
+Once you have started the Artisan development server, your application will be accessible in your web browser at `http://localhost:4201`.
