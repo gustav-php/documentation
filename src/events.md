@@ -15,14 +15,13 @@ Events can be defined by attaching the Event Attributes to a class.
 ```php
 use GustavPHP\Gustav\Attribute\Event;
 use GustavPHP\Gustav\Event;
-use GustavPHP\Gustav\Logger\Logger;
 
 #[Event('test')]
 class TestEvent extends Event\Base
 {
     public function handle(Event\Payload $payload): void
     {
-        Logger::log('Event: ' . $payload->getEvent());
+        $this->log('Event: ' . $payload->getEvent());
     }
 }
 ```
@@ -30,14 +29,9 @@ class TestEvent extends Event\Base
 Events can be dispatched from anywhere using.
 
 ```php
-use GustavPHP\Gustav\Event;
-
-//...
-
-Event\Manager::dispatch('test', [
+GustavPHP\Gustav\Event\Manager::dispatch('test', [
     'key' => 'value'
 ]);
 ```
 
 Events are automatically added like Routes in the `App\Events` namespace.
-

@@ -13,6 +13,8 @@ class Police extends Service\Base
 
 To inject a service into a controller, you need to add the `DI\Attribute\Inject` attribute to the property with the type of your desired Service.
 
+Dependency Injection is powered by [PHP-DI](https://php-di.org/).
+
 ```php
 use DI\Attribute\Inject;
 
