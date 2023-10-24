@@ -13,7 +13,7 @@ After the project has been created, start GustavPHP's local development server u
 ```bash
 cd example-app
 
-php gustav serve
+php gustav dev
 ```
 
 Once you have started the Artisan development server, your application will be accessible in your web browser at `http://localhost:4201`.

@@ -8,6 +8,7 @@
 -   [Installation](./installation.md)
 -   [Project Structure](./project-structure.md)
 -   [Configuration](./configuration.md)
+-   [Production](./production.md)
 
 # Documentation
 
