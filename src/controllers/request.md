@@ -51,8 +51,8 @@ Using the request object:
 ```php
 #[Route('/dog', Method::POST)]
 public function create(#[Request] ServerRequestInterface $request) {
-    $query = $request->getBody();
-    $name = $query['name'];
+    $body = $request->getBody();
+    $name = $body['name'];
 }
 ```
 
