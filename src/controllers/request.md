@@ -82,7 +82,7 @@ Using the request object:
 
 ```php
 #[Route('/dog')]
-public function get(#[Header] ServerRequestInterface $request) {
+public function get(#[Request] ServerRequestInterface $request) {
     $userAgent = $request->getHeader('User-Agent');
 }
 ```
