@@ -11,17 +11,16 @@ class Police extends Service\Base
 }
 ```
 
-To inject a service into a controller, you need to add the `DI\Attribute\Inject` attribute to the property with the type of your desired Service.
-
-Dependency Injection is powered by [PHP-DI](https://php-di.org/).
+To inject a service into a controller, you need to add the desired service to the controllers constructor.
 
 ```php
 use DI\Attribute\Inject;
 
 class DogsController extends Controller\Base
 {
-    #[Inject]
-    protected Police $police;
+    public function __construcst(protected Police $police)
+    {
+    }
 
     #[Route('/police')]
     public function police()
